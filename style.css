@@ -1,0 +1,45 @@
+#smallWindow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cont {
+    display: inline-block;
+    text-align: center;
+    margin: 15px auto;
+}
+.coctail {
+    margin: 15px;
+    text-align: center;
+    width: 210px;
+    border: 2px solid;
+}
+.img {
+    display: block;
+    width: 210px;
+    height: 300px;
+}
+.cont {
+    top: 0;
+    left: 0;
+    transform: translate(60%);
+}
+.cont input {
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.cont button {
+ padding: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.cont button:hover {
+    background: grey;
+    color: white;
+}
